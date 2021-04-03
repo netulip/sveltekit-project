@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>SvelteKit Project</title>
+
+
+
+<link rel="modulepreload" href="/./_app/start-3806a512.js">
+			<link rel="modulepreload" href="/./_app/chunks/vendor-ba99e6db.js">
+			<link rel="modulepreload" href="/./_app/pages/index.svelte-727a5abb.js">
+			<link rel="stylesheet" href="/./_app/assets/start-8d2d0cbf.css">
+			<link rel="stylesheet" href="/./_app/assets/pages/index.svelte-b8ea0ceb.css">
+
+
+		<script type="module">
+			import { start } from "/./_app/start-3806a512.js";
+			start({
+				target: document.body,
+				paths: {"base":"","assets":"/."},
+				session: {},
+				host: location.host,
+				route: true,
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/./_app/pages/index.svelte-727a5abb.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "/",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
+			});
+		</script>
+	</head>
+	<body>
+		<main class="svelte-1vzbymh">
+
+<h1 class="svelte-8gri16">Hello Universe</h1>
+</main>
+
+
+
+	
+
+	</body>
+</html>
