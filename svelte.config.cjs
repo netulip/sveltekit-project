@@ -1,7 +1,7 @@
 const path = require('path')
 const preprocess = require('svelte-preprocess')
 const adapter = require('@sveltejs/adapter-static')
-const imagetools = require('vite-imagetools')
+const { imagetools } = require('vite-imagetools')
 const { dependencies } = require('./package.json')
 const { preprocess: windicss } = require('svelte-windicss-preprocess')
 
