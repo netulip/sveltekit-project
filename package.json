@@ -10,6 +10,8 @@
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
+		"@netulip/rollup-plugin-md": "^0.0.1",
+		"@netulip/rollup-plugin-svg": "^0.0.3",
 		"@sveltejs/adapter-node": "next",
 		"@sveltejs/adapter-static": "next",
 		"@sveltejs/kit": "next",
