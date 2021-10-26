@@ -1,14 +1,16 @@
 {
-	"name": "portfolio",
-	"version": "0.0.1",
+	"name": "template",
 	"private": true,
+	"version": "0.0.1",
+	"type": "module",
 	"scripts": {
 		"dev": "set NODE_ENV=development && svelte-kit dev",
 		"build": "set NODE_ENV=production && svelte-kit build",
 		"start": "svelte-kit start",
-		"lint": "prettier --check . && eslint .",
-		"format": "prettier --write ."
+		"lint": "prettier --ignore-path .gitignore --check . && eslint .",
+		"format": "prettier --ignore-path .gitignore --write ."
 	},
+	
 	"devDependencies": {
 		"@sveltejs/adapter-node": "next",
 		"@sveltejs/adapter-static": "next",
@@ -28,9 +30,5 @@
 		"vite-imagetools": "^3.8.0",
 		"vite-plugin-windicss": "^1.4.12",
 		"windicss": "^3.1.9"
-	},
-	"type": "module",
-	"engines": {
-		"node": ">= 12.17.0"
 	}
 }
