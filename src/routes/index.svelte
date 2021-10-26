@@ -6,9 +6,9 @@
 
 <style>
 	h1 {
-		@apply sm:(text-5xl text-green-600) ;
-		& span {
-			@apply bg-green-700;
-		}
+		@apply text-5xl text-green-600;
+	}
+	h1 span {
+		@apply bg-green-700;
 	}
 </style>
