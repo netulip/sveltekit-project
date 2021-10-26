@@ -1,4 +1,4 @@
-module.exports = {
+export default {
 	darkMode: false,
 	theme: {
 		extend: {}
