@@ -4,8 +4,8 @@
 
 <h1>Hello Universe</h1>
 
-<style lang="postcss">
+<style>
 	h1 {
-		@apply bg-red-500 sm:(text-5xl text-green-600);
+		@apply sm:(text-5xl text-green-600) ;
 	}
 </style>
