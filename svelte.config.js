@@ -6,22 +6,17 @@ import windicss from 'vite-plugin-windicss'
 
 export default {
 	extensions: ['.svelte'],
-	preprocess: [
-		preprocess({ preserve: ['ld+json'] })
-	],
+	preprocess: [preprocess({ preserve: ['ld+json'] })],
 
 	kit: {
 		adapter: adapter(),
 		vite: {
 			resolve: {
 				alias: {
-					'@': path.resolve('src'),
+					'@': path.resolve('src')
 				}
 			},
-			plugins: [
-				windicss({ transformCSS: 'pre' }),
-				imagetools({ force: true })
-			]
+			plugins: [windicss({ transformCSS: 'pre' }), imagetools({ force: true })]
 		}
 	}
 }
